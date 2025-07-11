@@ -2,7 +2,7 @@
 
 $localhost = 'localhost';
 $username = 'root';
-$password = 'Anthonyb1';
+$password = '';
 $database = 'encircle_marketing';
 
 // database connection
