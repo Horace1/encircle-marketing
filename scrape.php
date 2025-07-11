@@ -146,9 +146,9 @@ if ($fp) {
         fputcsv($fp, [$row['website'],$row['brand'], $row['pattern'], $row['size'], $row['price'], $row['rating']]);
     }
     fclose($fp);
-    echo "<p>CSV file exported as <strong>$filename</strong></p>";
+    echo "CSV file exported as $filename";
 } else {
-    echo "<p>Failed to create CSV file.</p>";
+    echo "Failed to create CSV file.";
 }
 
 mysqli_close($conn);
